@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img class="profile" src="images/pp.png" alt="Kobus Profile Pic" style="max-width: 50%; max-height: 50%;"></td>
-            <td> <h1>Kobus van Staden</h1>
-                <p1><em>Backend Data Dev moving to a Full Stack Future</em></p1>
-            
-                <p1><br>Welcome to my portofolio, <strong>it's baron here</strong>, I am adding projects as I go...</br></p1>
-            </td>
-        </tr>
-    </table>
 
+    <div id="topSection">
+        <div>
+            <img id="profile" src="images/pp.png" alt="Kobus Profile Pic">
+        </div>
+        <div id="info">
+            <h1 id="myName">Kobus van Staden</h1>
+            <p1><em>Backend Data Dev moving to a Full Stack Future</em></p1>
+            <p1><br>Welcome to my portofolio, <strong>it's baron here</strong>, I am adding projects as I go...</br></p1>    
+        </div>
+
+    </div>
+
+   
     <hr>
 
     <h3>Skillset</h3>
@@ -45,7 +48,7 @@
 
     <h3>My Projects</h3>
 
-    <table>
+    <table id="myProjectsTable">
         <thead> 
             <tr>
                 <th>Project Name</th>
@@ -70,6 +73,7 @@
         <li>Elder Scrolls</li>
     </ul>
 
+    <script src="scripts/style.js"></script>
 
 </body>
 </html>

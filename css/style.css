@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    margin: 0px;
 }
 
 hr{
@@ -7,19 +8,44 @@ hr{
     border-top-style: dotted;
     border-color: darkgrey;
     border-width: 5px;
-    width: 100%;
+    width: 20%;
 }
 
 h1{
     text-shadow: lightblue;
     color: slategray;
+    font: xx-large;
+    animation: ease-in;
 }
 
 h3{
     color:steelblue;
 }
 
-.profile{
-    border: steelblue;
+/**Ids**/
+#topSection{
+    height: 25%;
+    width: 100%;
+    display: inline-block;
+}
+
+#profile{
+    max-width: 20%;
+    max-height: inherit;
     border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+
+#info{
+    text-align: center;
+}
+
+#myName{
+    padding-top: 20px;
+}
+
+#myProjectsTable{
+    padding:5px 8px;border:1px solid #CCC;
+    
 }
